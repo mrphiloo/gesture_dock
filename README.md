@@ -26,7 +26,7 @@ Gesture Dock is an innovative project that enables the management of Docker cont
   ```bash
   sudo yum update -y
   sudo yum install docker -y
-  sudo service docker start
+  sudo systemctl start docker
   sudo systemctl enable docker
 
 - Add an IAM role with `AmazonSSMFullAccess` policy to the EC2 instance
@@ -42,7 +42,8 @@ Gesture Dock is an innovative project that enables the management of Docker cont
 
 ## 4. Automate with Python Code
 - Use the following code in `main.py` to automate the process
-NOTE: Run this code on your local Machine
+
+( NOTE: Run this code on your local Machine )
 
 ## How to Use
 1. Follow the setup instructions to configure your AWS environment and EC2 instance.
