@@ -49,3 +49,8 @@ NOTE: Run this code on your local Machine
 2. Deploy the Lambda function with the provided code.
 3. Create the API Gateway with the specified endpoint.
 3. Run the main.py script to start the hand gesture recognition and launch Docker containers based on recognized gestures.
+
+
+## Contact
+If anything is not working or needs changes, connect with me on [LinkedIn](https://www.linkedin.com/in/mrphiloo/).
+
