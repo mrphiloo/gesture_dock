@@ -9,7 +9,7 @@ def lambda_handler(event, context):
     cmd = {'commands': ['docker run -dit centos:7']}
     
     # Send the command to the specified EC2 instance using the AWS-RunShellScript document
-    client.send_command(DocumentName="AWS-RunShellScript", InstanceIds=['i-083f2aca2b9664d91'], Parameters=cmd)
+    client.send_command(DocumentName="AWS-RunShellScript", InstanceIds=['i-083f2aca2b9664d'], Parameters=cmd)
     
     # Return a successful response with a message
     return {
